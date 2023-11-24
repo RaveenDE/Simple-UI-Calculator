@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="20dp">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/eTInput1"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+
+            android:hint="Enter input 1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/eTInput2"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:hint="Enter input 2" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="Result" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp">
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:layout_weight="1"
+            android:text="plus" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:layout_weight="1"
+            android:text="Minus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/multi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:layout_weight="1"
+            android:text="Multiply" />
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:layout_weight="1"
+            android:text="Divide" />
+    </LinearLayout>
+
+</LinearLayout>
